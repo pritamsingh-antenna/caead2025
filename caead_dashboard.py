@@ -197,7 +197,7 @@ with tab3:
     ax.grid(True, alpha=0.3)
     st.pyplot(fig)
 
-    st.dataframe(df.head(20), width='stretch')
+    st.dataframe(df.head(20), use_container_width=True)
     st.caption(f"Total: {len(df)} designs | Parameters: {len(df.columns)-1}")
 
 st.divider()
