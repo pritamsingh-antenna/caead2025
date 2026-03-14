@@ -65,7 +65,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("📊 Dataset Overview")
-    st.dataframe(df.head(10), width='stretch)
+    st.dataframe(df.head(10), width='stretch')
     st.caption(f"Total designs in dataset: {len(df)}")
 
 with col2:
@@ -135,7 +135,7 @@ if run:
                         f"{best_design[2]:.2f}",
                         f"{best_design[3]:.2f} mm"]
     })
-    st.dataframe(res, width='stretch, hide_index=True)
+    st.dataframe(res, width='stretch', hide_index=True)
     
     # Convergence plot
     st.subheader("📉 Optimization Convergence")
