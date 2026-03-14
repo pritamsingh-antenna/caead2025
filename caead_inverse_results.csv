@@ -1,0 +1,4 @@
+Application,Target Freq,Target BW,Target Gain,Length (mm),Width (mm),Substrate Er,Height (mm)
+WiFi 2.4 GHz,2.4 GHz,5.0 MHz,2.0 dBi,20.98,24.19,8.89,1.68
+WiFi 5 GHz,5.0 GHz,10.0 MHz,4.0 dBi,12.88,21.44,5.69,0.93
+5G Sub-6 GHz,3.5 GHz,20.0 MHz,3.5 dBi,15.99,33.09,8.02,3.14
