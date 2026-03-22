@@ -33,6 +33,35 @@ An end-to-end AI-driven antenna design automation system integrating HFSS full-w
 
 ---
 
+## 🖥️ Dashboard Screenshots
+
+### Forward Design — Geometry → Performance
+![Forward Design](screenshot_forward.png)
+
+### Inverse Design — Specs → Geometry
+![Inverse Design](screenshot_inverse.png)
+
+### Dataset Explorer — 5000 Antenna Designs
+![Dataset Explorer](screenshot_dataset.png)
+
+---
+
+## 📈 Model Results — Plots
+
+### DNN + GPR + PINN Ensemble
+![Ensemble Results](caead_ensemble_results.png)
+
+### Gaussian Process Regression (GPR) — With Uncertainty
+![GPR Results](caead_gpr_results.png)
+
+### Physics-Informed Neural Network (PINN)
+![PINN Results](caead_pinn_results.png)
+
+### Bayesian Optimizer Convergence
+![Optimizer](caead_optimization.png)
+
+---
+
 ## 🧠 CAEAD AI Pipeline
 ```
 Target Specifications (Frequency, Bandwidth, Gain, Polarization)
